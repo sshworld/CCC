@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/drawer_layout3"
+    android:orientation="vertical"
+    tools:context=".MyPageActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:textColor="#AAC3C0"
+        android:text="주소변경"
+        android:textSize="50dp" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="25dp"
+        android:text="현도로명"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/nowRoadValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="140dp"
+        android:text="부산시 사하구 비봉로 42"
+        android:textSize="25dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="250dp"
+        android:text="현상세주소"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/nowAdrValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="140dp"
+        android:text="202동 1408호"
+        android:textSize="25dp" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="330dp"
+        android:layout_marginLeft="25dp"
+        android:text="새도로명"
+        android:textSize="25dp" />
+
+
+    <EditText
+        android:id="@+id/newRoadValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="도로명"
+        android:layout_marginTop="322dp"
+        android:layout_marginLeft="140dp"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="390dp"
+        android:layout_marginLeft="5dp"
+        android:text="새상세주소"
+        android:textSize="25dp" />
+
+
+    <EditText
+        android:id="@+id/newAdrValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="상세주소"
+        android:layout_marginTop="382dp"
+        android:layout_marginLeft="140dp"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/btn_updateValue"
+        android:layout_width="130dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="500dp"
+        android:layout_marginLeft="50dp"
+        android:background="#CAE3E6"
+        android:visibility="visible"
+        android:text="변경완료"
+        android:textSize="25dp"/>
+
+    <Button
+        android:id="@+id/btn_cancleValue"
+        android:layout_width="130dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="500dp"
+        android:layout_marginLeft="200dp"
+        android:visibility="visible"
+        android:background="#CAE3E6"
+        android:text="취소"
+        android:textSize="25dp"/>
+
+
+    <ImageButton
+        android:id="@+id/btn_open3"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/menu" />
+
+    <LinearLayout
+        android:id="@+id/drawer3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFFFF"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <ImageButton
+            android:src="@drawable/exit1"
+            android:id="@+id/btn_close3"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:id="@+id/myName3"
+            android:text="OOO님 안녕하세요." />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btn_goHome3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="홈" />
+
+            <Button
+                android:id="@+id/btn_my_booking3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="내 예약현황" />
+
+            <Button
+                android:id="@+id/btn_notice3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="공지사항" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="로그아웃"
+                android:id="@+id/btn_logout3"/>
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</FrameLayout>

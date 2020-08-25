@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MyBookingActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:textColor="#AAC3C0"
+        android:text="내 예약 현황"
+        android:textSize="50dp" />
+
+    <ListView
+        android:id="@+id/MyBookingList"
+        android:layout_width="wrap_content"
+        android:layout_height="301dp"
+        android:layout_marginTop="150dp"
+        android:choiceMode="multipleChoice" />
+
+
+    <Button
+        android:id="@+id/noBooking"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="250dp"
+        android:visibility="visible"
+        android:text="예약 취소"
+        android:textSize="25dp" />
+
+    <ImageButton
+            android:id="@+id/btn_open2"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/menu" />
+
+        <LinearLayout
+            android:id="@+id/drawer2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#FFFFFF"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <ImageButton
+                android:src="@drawable/exit1"
+                android:id="@+id/btn_close2"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:id="@+id/myName2"
+                android:text="OOO님 안녕하세요." />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/btn_goHome2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="홈" />
+
+
+                <Button
+                    android:id="@+id/btn_my_page2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="주소지 변경" />
+
+                <Button
+                    android:id="@+id/btn_notice2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="공지사항" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="로그아웃"
+                    android:id="@+id/btn_logout2"/>
+
+            </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</FrameLayout>

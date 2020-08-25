@@ -1,2 +1,2 @@
 include ':app'
-rootProject.name = "CCC"
+rootProject.name='CloudCenter_V2'

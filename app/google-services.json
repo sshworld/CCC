@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "72673584533",
+    "firebase_url": "https://sshworld.firebaseio.com",
+    "project_id": "sshworld",
+    "storage_bucket": "sshworld.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:72673584533:android:83ecef86659f17cbe5c29c",
+        "android_client_info": {
+          "package_name": "com.example.cloudcenter_v2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "72673584533-kqjqe3438v74smebad03u6r7760jhk0u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAmurKxMvMNWj6Q4tfcCDk9uDD6EKDnzeg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "72673584533-kqjqe3438v74smebad03u6r7760jhk0u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

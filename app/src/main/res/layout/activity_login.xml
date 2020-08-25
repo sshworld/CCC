@@ -19,8 +19,7 @@
         android:textColor="#06BDD3"
         android:textSize="70sp"
         tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="52dp"
-        android:gravity="center_horizontal" />
+        tools:layout_editor_absoluteY="52dp" />
 
     <EditText
         android:id="@+id/et_id"

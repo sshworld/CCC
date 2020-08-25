@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.ccc">
-
+    package="com.example.cloudcenter_v2">
     <!-- 인터넷 권한 선언 -->
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
@@ -14,7 +13,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".NoticeActivity"></activity>
+        <activity android:name=".MyPageActivity" />
+        <activity android:name=".MyBookingActivity" />
+        <activity android:name=".BookingActivity" />
+        <activity android:name=".SelectHobbyActivity" /> <!-- android:usesCleartextTraffic="true" -->
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".LoginActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -26,6 +31,7 @@
             android:name="com.kakao.sdk.AppKey"
             android:value="ee245f0d7028b445372e59ba79da4364" />
 
+        <activity android:name=".MainActivity" />
     </application>
 
 </manifest>

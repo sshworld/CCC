@@ -1,0 +1,467 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout4"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".NoticeActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/rl_001"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="#ffffff">
+
+
+            <TextView
+                android:id="@+id/information"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="공지 사항" />
+
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/noticeText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:background="#1E90FF"
+            android:drawableStart="@drawable/ic_baseline_chat"
+            android:drawableLeft="@drawable/ic_baseline_chat"
+            android:padding="10dp"
+            android:text="이벤트 공지사항"
+            android:textColor="#ffffff"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#00BFFF">
+
+            <TextView
+                android:id="@+id/nameText0"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginLeft="8dp"
+                android:padding="3dp"
+                android:text="김우성"
+                android:textColor="#ffffff"
+                android:textColorHint="#ffffff" />
+
+            <TextView
+                android:id="@+id/dateText0"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:padding="3dp"
+                android:text="2020-07-01"
+                android:textColor="#ffffff"
+                android:textColorHint="#ffffff" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/noticeText1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:background="#1E90FF"
+            android:drawableStart="@drawable/ic_baseline_chat"
+            android:drawableLeft="@drawable/ic_baseline_chat"
+            android:padding="10dp"
+            android:text="예약 공지사항"
+            android:textColor="#ffffff"
+            android:textStyle="bold" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#00BFFF">
+
+            <TextView
+                android:id="@+id/nameText1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginLeft="8dp"
+                android:padding="3dp"
+                android:text="송성헌"
+                android:textColor="#ffffff"
+                android:textColorHint="#ffffff" />
+
+            <TextView
+                android:id="@+id/dateText1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:padding="3dp"
+                android:text="2020-07-01"
+                android:textColor="#ffffff"
+                android:textColorHint="#ffffff" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/noticeText2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:background="	#1E90FF"
+            android:drawableStart="@drawable/ic_baseline_chat"
+            android:drawableLeft="@drawable/ic_baseline_chat"
+            android:padding="10dp"
+            android:text="회원 공지사항"
+            android:textColor="#ffffff"
+            android:textStyle="bold" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="	#00BFFF">
+
+            <TextView
+                android:id="@+id/nameText2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginLeft="8dp"
+                android:padding="3dp"
+                android:text="김민수"
+                android:textColor="#ffffff"
+                android:textColorHint="#ffffff" />
+
+            <TextView
+                android:id="@+id/dateText2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:padding="3dp"
+                android:text="2020-07-01"
+                android:textColor="#ffffff"
+                android:textColorHint="#ffffff" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/noticeText3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:background="	#1E90FF"
+            android:drawableStart="@drawable/ic_baseline_chat"
+            android:drawableLeft="@drawable/ic_baseline_chat"
+            android:padding="10dp"
+            android:text="이벤트 공지사항"
+            android:textColor="#ffffff"
+            android:textStyle="bold" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="	#00BFFF">
+
+            <TextView
+                android:id="@+id/nameText3"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginLeft="8dp"
+                android:padding="3dp"
+                android:text="김우성"
+                android:textColor="#ffffff"
+                android:textColorHint="#ffffff" />
+
+            <TextView
+                android:id="@+id/dateText3"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:padding="3dp"
+                android:text="2020-07-01"
+                android:textColor="#ffffff"
+                android:textColorHint="#ffffff" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/noticeText4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:background="	#1E90FF"
+            android:drawableStart="@drawable/ic_baseline_chat"
+            android:drawableLeft="@drawable/ic_baseline_chat"
+            android:padding="10dp"
+            android:text="예약 공지사항"
+            android:textColor="#ffffff"
+            android:textStyle="bold" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="	#00BFFF">
+
+            <TextView
+                android:id="@+id/nameText4"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginLeft="8dp"
+                android:padding="3dp"
+                android:text="송성헌"
+                android:textColor="#ffffff"
+                android:textColorHint="#ffffff" />
+
+            <TextView
+                android:id="@+id/dateText4"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:padding="3dp"
+                android:text="2020-07-01"
+                android:textColor="#ffffff"
+                android:textColorHint="#ffffff" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/noticeText5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:background="	#1E90FF"
+            android:drawableStart="@drawable/ic_baseline_chat"
+            android:drawableLeft="@drawable/ic_baseline_chat"
+            android:padding="10dp"
+            android:text="공지사항"
+            android:textColor="#ffffff"
+            android:textStyle="bold" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#00BFFF">
+
+            <TextView
+                android:id="@+id/nameText5"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginLeft="8dp"
+                android:padding="3dp"
+                android:text="김민수"
+                android:textColor="#ffffff"
+                android:textColorHint="#ffffff" />
+
+            <TextView
+                android:id="@+id/dateText5"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:padding="3dp"
+                android:text="2020-07-01"
+                android:textColor="#ffffff"
+                android:textColorHint="#ffffff" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/noticeText6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:background="	#1E90FF"
+            android:drawableStart="@drawable/ic_baseline_chat"
+            android:drawableLeft="@drawable/ic_baseline_chat"
+            android:padding="10dp"
+            android:text="이벤트 공지사항"
+            android:textColor="#ffffff"
+            android:textStyle="bold" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="	#00BFFF">
+
+            <TextView
+                android:id="@+id/nameText6"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginLeft="8dp"
+                android:padding="3dp"
+                android:text="김우성"
+                android:textColor="#ffffff"
+                android:textColorHint="#ffffff" />
+
+            <TextView
+                android:id="@+id/dateText6"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:padding="3dp"
+                android:text="2020-07-01"
+                android:textColor="#ffffff"
+                android:textColorHint="#ffffff" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/noticeText7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:background="#1E90FF"
+            android:drawableStart="@drawable/ic_baseline_chat"
+            android:drawableLeft="@drawable/ic_baseline_chat"
+            android:padding="10dp"
+            android:text="예약 공지사항"
+            android:textColor="#ffffff"
+            android:textStyle="bold" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="	#00BFFF">
+
+            <TextView
+                android:id="@+id/nameText7"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginLeft="8dp"
+                android:padding="3dp"
+                android:text="송성헌"
+                android:textColor="#ffffff"
+                android:textColorHint="#ffffff" />
+
+            <TextView
+                android:id="@+id/dateText7"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:padding="3dp"
+                android:text="2020-07-01"
+                android:textColor="#ffffff"
+                android:textColorHint="#ffffff" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/noticeText8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:background="	#1E90FF"
+            android:drawableStart="@drawable/ic_baseline_chat"
+            android:drawableLeft="@drawable/ic_baseline_chat"
+            android:padding="10dp"
+            android:text="공지사항"
+            android:textColor="#ffffff"
+            android:textStyle="bold" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#00BFFF">
+
+            <TextView
+                android:id="@+id/nameText8"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginLeft="8dp"
+                android:padding="3dp"
+                android:text="김민수"
+                android:textColor="#ffffff"
+                android:textColorHint="#ffffff" />
+
+            <TextView
+                android:id="@+id/dateText8"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:padding="3dp"
+                android:text="2020-07-01"
+                android:textColor="#ffffff"
+                android:textColorHint="#ffffff" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/btn_open4"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/menu" />
+
+    <LinearLayout
+        android:id="@+id/drawer4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFFFF"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <ImageButton
+            android:id="@+id/btn_close4"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:src="@drawable/exit1" />
+
+        <TextView
+            android:id="@+id/myName4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="OOO님 안녕하세요." />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btn_goHome4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="홈" />
+
+            <Button
+                android:id="@+id/btn_my_booking4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="내 예약현황" />
+
+            <Button
+                android:id="@+id/btn_my_page4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="주소지 변경" />
+
+            <Button
+                android:id="@+id/btn_logout4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="로그아웃" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</FrameLayout>
