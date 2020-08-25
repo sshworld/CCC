@@ -1,4 +1,4 @@
-package com.example.ccc;
+package com.example.cloudcenter_v2;
 
 import android.Manifest;
 import android.app.Service;

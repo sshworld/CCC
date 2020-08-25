@@ -1,4 +1,4 @@
-package com.example.ccc;
+package com.example.cloudcenter_v2;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -36,8 +36,8 @@ public class LoginActivity extends AppCompatActivity {
         btn_register.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-        //        Intent intent = new Intent(LoginActivity.this, RegisterActivity.class);
-        //        startActivity(intent);
+                Intent intent = new Intent(LoginActivity.this, RegisterActivity.class);
+                startActivity(intent);
             }
         });
 
@@ -56,13 +56,13 @@ public class LoginActivity extends AppCompatActivity {
                             Log.d(jsonObject.toString(), "JSOsfdsdfsfN");
                             boolean success = jsonObject.getBoolean("success");
                             if (success) {
-                                String userID = jsonObject.getString("userID");
-                                String userPassword = jsonObject.getString("userPassword");
-                                Toast.makeText(getApplicationContext(), "로그인에 성공하셨습니다.", Toast.LENGTH_SHORT).show();
-                                Intent intent = new Intent(LoginActivity.this, MainActivity.class);
-                                intent.putExtra("userID", userID);
-                                startActivity(intent);
-                                finish();
+                                    String userID = jsonObject.getString("userID");
+                                    String userPassword = jsonObject.getString("userPassword");
+                                    Toast.makeText(getApplicationContext(), "로그인에 성공하셨습니다.", Toast.LENGTH_SHORT).show();
+                                    Intent intent = new Intent(LoginActivity.this, MainActivity.class);
+                                    intent.putExtra("userID", userID);
+                                    startActivity(intent);
+                                    finish();
                             } else { // 회원등록에 실패할 경우
                                 Toast.makeText(getApplicationContext(), "로그인에 실패하셨습니다.", Toast.LENGTH_LONG).show();
                                 return;

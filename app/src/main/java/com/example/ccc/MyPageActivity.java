@@ -281,4 +281,8 @@ public class MyPageActivity extends AppCompatActivity {
             return map;
         }
     }
+    @Override
+    public void onBackPressed() {
+        //super.onBackPressed();
+    }
 }

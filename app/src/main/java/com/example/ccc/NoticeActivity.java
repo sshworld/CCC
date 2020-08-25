@@ -141,4 +141,9 @@ public class NoticeActivity extends AppCompatActivity {
 
         }
     }
+
+    @Override
+    public void onBackPressed() {
+        //super.onBackPressed();
+    }
 }

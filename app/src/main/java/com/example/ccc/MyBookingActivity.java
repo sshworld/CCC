@@ -290,4 +290,9 @@ public class MyBookingActivity extends AppCompatActivity {
             return map;
         }
     }
+
+    @Override
+    public void onBackPressed() {
+        //super.onBackPressed();
+    }
 }
