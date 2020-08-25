@@ -1,7 +1,7 @@
 "# CCC" 
 
-Main Developer : 김우성
+Main Developer & Server : 김우성
 
-Server & Database : 송성헌, 이소연
+Server & Database : 이소연
 
-Front : 이은채
+Front : 송성헌, 이은채
